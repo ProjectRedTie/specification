@@ -2,6 +2,8 @@
 
 **Project Red Tie** (full name TBD) is a specification and implementation for an efficient representation of the Minecraft protocol between a Minecraft server and a Minecraft proxy. It is being jointly developed by a team of volunteers who are passionate about pushing Minecraft to its limits.
 
+We intend to produce a specification that any server or proxy implementation can implement - this specification is independent of Velocity or Minestom.
+
 ## Current progress
 
 The project has just begun - this is the perfect time to join us. [We're on Discord](https://discord.gg/kUugFSS3bj).
