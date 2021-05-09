@@ -4,7 +4,7 @@
 
 ## Current progress
 
-The project has just begun - this is the perfect time to join us. 
+The project has just begun - this is the perfect time to join us. [We're on Discord](https://discord.gg/kUugFSS3bj).
 
 ## The Team
 
