@@ -7,6 +7,7 @@ As for MVP, a plugin message will be used.
 Here is a non-exaustive list of what Project Red Tie could improve:
 * Skip re-compression when unneeded (e.g. chunk & light packets)
 * Better compression algorithm (e.g. zstd instead of zlib)
+* Packet grouping to reduce the amount of created tasks
 * Application specific packets converted proxy-side to reduce minecraft load & bandwidth (e.g. more efficient particle effects)
 
 # Handshake
