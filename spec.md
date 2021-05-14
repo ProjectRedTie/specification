@@ -23,10 +23,10 @@ Message should be sent under the channel `redtie:protocol` and might be sent mul
 * TODO
 
 # Protocol changes
-| Compressed? | Field name       | Field type | Notes                                          |
-|-------------|------------------|------------|------------------------------------------------|
-| No          | Packet Length    | VarInt     | Length of all the following                    |
-| No          | Packet ID Header | VarInt     | Only if `headerId` is enabled.                 |
-| No          | Data Length      | VarInt     | Length of uncompressed (Packet ID + Data) or 0 |
-| Yes         | Packet ID        | VarInt     | zlib compressed packet ID                      |
-| Yes         | Data             | Byte Array | zlib compressed packet data                    |
+| Compressed? | Field name       | Field type | Notes                                               |
+|-------------|------------------|------------|-----------------------------------------------------|
+| No          | Packet Length    | VarInt     | Length of all the following                         |
+| No          | Data Length      | VarInt     | Length of uncompressed (Packet ID + Data) or 0      |
+| No          | Packet ID Header | VarInt     | Only if `headerId` is enabled and `Data Length > 0` |
+| Yes         | Packet ID        | VarInt     | zlib compressed packet ID                           |
+| Yes         | Data             | Byte Array | zlib compressed packet data                         |
